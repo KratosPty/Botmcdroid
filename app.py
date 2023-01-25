@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Este archivo usa el encoding: utf-8
+
 from flask import Flask, render_template, request, jsonify
 from tensorflow.keras.models import load_model
 
@@ -159,4 +159,4 @@ def otra_ruta():
 
 
 if __name__ == '__main__':
-    app.run(debug=False, threaded=False)
+    app.run(debug=False, threaded=False,host='0.0.0.0')
