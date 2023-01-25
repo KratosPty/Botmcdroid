@@ -4,4 +4,3 @@ keras
 werkzeug
 nltk
 pydub
-python
